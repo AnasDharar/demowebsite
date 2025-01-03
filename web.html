@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Page Title</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+  <section id="home">
+  <span id="mainbox" onclick="openfunc()">&#9776;</span>
+  <!--Heading of webpage-->
+  <div class="title">
+    <img id="logo" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRgVn5ZWmgFSHY1A2cs85cex9NzcW-BL5QhuPfOo8fMcvxiAIlNBSZNyl4&s=10">
+    Apex Academy
+  </div>
+  </section>
+  <a href="#home" id="top">⬆</a>
+
+  <!-- Hidden Nav Bar-->
+  <div id="menu" class="sidemenu">
+    <a href="#home">HOME</a>
+    <a href="#courses">Top Courses</a>
+    <a href="#info">Why to join us?</a>
+    <a href="#exp">Reviews</a>
+    <!--Hidden Nav Bar Close Button-->
+    <a href="javascript:(0)" class="closebtn" id="cross" onclick="closefunc()">&times;</a>
+  </div>
+  
+  <div class="welcome">
+    Welcome to <br> &nbsp;&nbsp;&nbsp;Apex Academy
+  </div>
+  <!--=======================-->
+  <section id="courses">
+  <div class="headline">
+    Our Top Courses
+  </div>
+  <!--======================-->
+  <div class="sliding">
+  <div class="course" id="eng">
+    <div class="course-title">
+    English Speaking <br>
+    Course
+    </div>
+  </div>
+  <!----------------------------->
+  <div class="course" id="datasc">
+    <div class="course-title">
+    Diploma in <br>
+    Data Science
+    </div>
+  </div>
+  <!---------------------------->
+  <div class="course" id="micro">
+    <div class="course-title">Microsoft <br>
+    Certified Course
+    </div>
+  </div>
+  </div>
+  </section>
+  <!--=========================-->
+  <section id="info">
+<div class="info">
+  <div class="info-title">
+    Find your Path to
+    <br>success
+  </div>
+  <div class="info-container">
+    
+      <img class="info-image" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ6-dVYq61u9KsYpCSussfswIsvdTwFckEksC1d7_o66hcRoaN6&s">
+      <div class="info-subtitle">
+        Gain expertise with<br> latest skills
+      </div>
+      <div class="info-text">
+        with courses and<br> specializations in<br> computer science,<br> humanitites and more
+      </div>
+  </div>
+    <br>
+    <!-------------------------->
+    <div class="info-container">
+    
+      <img class="info-image" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSxDq9kJO-dAFl8ZD0QD7ODh3Z6KiRJ0Lg-oTEiqrDcThuCrorljAtva6Q&s=10">
+      <div class="info-subtitle">
+        Learn job-ready <br>
+        career skills
+      </div>
+      <div class="info-text">
+        in artificial <br>
+        intelligence, machine <br>
+        learning, data <br>
+        science, cloud <br>
+        engineering and <br>
+        more
+      </div>
+    </div>
+    <!------------------------>
+    <div class="info-container">
+      <img class="info-image" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT5P48hWzzUZla06ElxJHe9GhaFhgRc28dsM7os7HK2IGE_WpHbP3Zwr2MK&s=10">
+      <div class="info-subtitle">
+        Earn a Degree
+      </div>
+      <div class="info-text">
+        from the world's <br>
+        leading universities in<br>
+        business, computer science <br> and more
+      </div>
+    </div>
+  </div>
+  </section>
+  <!--======================-->
+  <section id="exp">
+<div class="review">
+  <div class="review-header">
+    Student Experiences
+  </div>
+  <div class="review-container">
+    <img class="rv-img" src="https://api.sololearn.com/Uploads/Avatars/8350976.jpg">
+    <div class="review-title">
+      Tapabrata Banarjee
+    </div>
+    <div class="review-subtitle">
+      Phd in Data-Science
+    </div>
+    <div class="review-txt">
+      Apex Academy offers quality education in very affordable amount. The community is very friendly and helpful.
+    </div>
+  </div>
+  <!--------------------------->
+  <div class="review-container">
+  <img class="rv-img" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcThowQ5VNmhZVDWMfGUWt87HzFTLcaR5xJ9ug&usqp=CAU">
+  <div class="review-title">
+    Saachi Morab
+  </div>
+  <div class="review-subtitle">
+    Software Engineer in Google
+  </div>
+  <div class="review-txt">
+    The Data Structures and Algorithms were very complex for me. Their unique and simple style of teaching helped me achieve success.
+  </div>
+  </div>
+  <!-------------------------->
+  <div class="review-container">
+  <img class="rv-img" src="https://api.sololearn.com/Uploads/Avatars/20278522.jpg">
+  <div class="review-title">
+    Shreyash
+  </div>
+  <div class="review-subtitle">
+    Website Developer/Freelancer
+  </div>
+  <div class="review-txt">
+    I stared coding with no knowledge nor experience, but their full-proof, real life examples made my future bright.
+  </div>
+  </div>
+</div>
+  </section>
+  <!--======================-->
+  <div id="form">
+    <input id="form1" type="text" class="input-txt" placeholder="Enter Username" maxlength="20">
+    <br>
+    <input id="form2" type="email" class="input-txt" placeholder="Enter email address" maxlength="25">
+    <br>
+    <input id="form3" type="password" class="input-txt" placeholder="Enter Password" maxlength="15">
+    <br>
+    <input id="form4" type="password" class="input-txt" placeholder="Confirm Password" maxlength="15">
+    <br>
+  
+  <button onclick="submit()" id="submit">
+    Register Now!
+    </button>
+  </div>
+  
+  <script src="main.js"></script>
+</body>
+<script src="script.js">
+</script>
+</html>

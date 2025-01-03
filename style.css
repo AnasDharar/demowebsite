@@ -1,0 +1,297 @@
+html{
+    font-size: 15px;
+  }
+  body {
+      margin: 0;
+      padding: 0;
+      
+  }
+  /*Navigation Bar CSS*/
+  span{
+      position: fixed;
+      top: 15px;
+      left: 0px;
+      font-size:25px;
+      cursor:pointer;
+      
+      z-index: 1;
+      margin-left: 15px;
+      filter: drop-shadow(0 6px 4px #888888);
+      color: black;
+  }
+  .sidemenu{
+      position: fixed;
+      top:0px;
+      left:0px;
+      height:100%;
+      width:0px;
+      background-color:#222;
+      z-index:2;
+      padding-top:100px;
+      overflow-x:hidden;
+      transition:0.7s;
+  }
+  .sidemenu a{
+      padding:8px 8px 8px 64px;
+      text-decoration:none;
+      font-size:20px;
+      color:#999;
+      display:block;
+      
+  }
+  .sidemenu a:hover{
+      color:white;
+      background-color: #999;
+  }
+  .sidemenu .closebtn{
+      position:absolute;
+      top:0px;
+      margin-left:32px;
+      font-size:36px;
+      right:25px;
+  }
+  #cross:hover{
+      outline:none;
+  }
+  /*HEADER CSS*/
+    .title{
+      display: block;
+      position: relative;
+      font-size: 25px;
+      font-family: 'Righteous', 'Times New Roman';
+      background: papayawhip;
+      padding: 10px;
+      text-align: center;
+      filter: drop-shadow(0 6px 4px #888888);
+      text-shadow: 0 4px 4px #888888;
+      color: black;
+    }
+  /*Logo CSS*/
+  #logo{
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+  }
+  /* Top button */
+  #top{
+    position: fixed;
+    bottom: 4%;
+    right: 4%;
+    border: none;
+    font-size: 25px;
+    text-decoration: none;
+    background: none;
+  }
+  /*Our Top Courses Line */
+  .headline{
+    position: relative;
+    display: block;
+    padding: 20px;
+    margin: 10px;
+    border: 3px solid black;
+    border-radius: 20px;
+    background: white;
+    font-variant: small-caps;
+    font-weight: bold;
+    font-family: "Times New Roman";
+    font-size: 17px;
+    text-align: center;
+  }
+  /* Welcome to Apex Academy */
+  .welcome{
+    font-size: 30px;
+    margin: 10%;
+    font-weight: bold;
+    padding: 10px;
+    border-radius: 20px;
+    border-left: 4px solid #7272FF;
+    border-right: 4px solid #7272FF;
+    filter: drop-shadow(0 3px 3px #BCBCBC);
+    color: black;
+  }
+  /* courses CSS */
+  .sliding{
+    overflow-x: auto;
+    white-space: nowrap;
+  }
+  .course{
+    display: inline-block;
+    width: 300px;
+    height: 200px;
+    margin: 10px;
+    font-size: 20px;
+    font-family: 'Comfortaa';
+    font-weight: bold;
+    text-align: center;
+    transition: 0.6s;
+  }
+  .course:hover{
+    transform: scale(1.1);
+  }
+  .course-title{
+    padding: 20%;
+  }
+  #eng{
+    background: #EEFF64;
+  }
+  #datasc{
+    background: #94F5F4;
+  }
+  #micro{
+    background: #FF9F9F;
+  }
+  #blok{
+    height: 1000px;
+  }
+  /* Find your Path to Success */
+  .info{
+    margin: 10% 0;
+    text-align: center;
+    background: #F5F5F5;
+  }
+  .info-container{
+    padding: 30px 0;
+    text-align: center;
+  }
+  .info-image{
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+  }
+  .info-title{
+    padding: 20px;
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  .info-subtitle{
+    margin: 10px;
+    font-size: 1.2rem;
+    
+  }
+  /* Customer Reviews */
+  .review{
+    padding: 5%;
+    background: white;
+  }
+  .review-header{
+    text-align: center;
+    font-weight: bold;
+    font-size: 2rem;
+    margin: 10px;
+  }
+  .review-container{
+    margin: 5%;
+    background: #72F8FF;
+    border-radius: 4vw;
+    padding: 5%;
+  }
+  .rv-img{
+    display: inline-block;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+  }
+  .review-title{
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  .review-subtitle{
+    font-size: 1rem;
+    color: #A5A5A5;
+  }
+  .review-txt{
+    padding: 10px;
+    font-size: 1.2rem;
+    font-style: italic;
+    font-family: "Times New Roman";
+  }
+  
+  /* Form */
+  #form{
+    background: #FF7272;
+    text-align: center;
+    padding: 5%;
+  }
+  .input-txt{
+    outline: none;
+    padding: 10px;
+    margin: 5%;
+    font-size: 1rem;
+    background: none;
+    border: none;
+    border-bottom: 2px solid white;
+    border-left: 2px solid white;
+    color: white;
+    transition: 0.4s;
+  }
+  .input-txt::placeholder{
+      color:white;
+  }
+  .input-txt:hover{
+    background: #FF7A7A;
+    border-radius: 10px;
+  }
+  #submit{
+    padding: 10px;
+    width: 50%;
+    height: 20%;
+    margin: 5px;
+    border: 1px solid black;
+    background: #FFF674;
+    color: #FF0000;
+    filter: drop-shadow(3px 3px white);
+  }
+  #submit:active{
+    color: black;
+    background: #00DCFF;
+  }
+  @media screen and (min-width: 480px)
+  {
+    html{
+      font-size: 20px;
+    }
+    .sidemenu a{
+      font-size: 30px;
+      padding: 25px;
+    }
+    span{
+      font-size: 40px;
+    }
+    #logo{
+      height: 50px;
+      width: 50px;
+    }
+    .title{
+      font-size: 40px;
+    }
+    .welcome{
+    text-align: center;
+    font-size: 50px;
+  }
+    .text-box{
+      font-size: 30px;
+    }
+    .info-title{
+      font-size: 2.5rem;
+    }
+    .info-subtitle{
+      font-size: 2.2rem;
+    }
+    .info-image{
+      height: 140px;
+      width: 140px;
+    }
+    .info-text{
+      font-size: 2rem;
+    }
+    .input-txt{
+      font-size: 1.5rem;
+    }
+    #submit{
+      height: 100px;
+      font-size: 1.4rem;
+    }
+    #top{
+      font-size: 3rem;
+    }
+  }
