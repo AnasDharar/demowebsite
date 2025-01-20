@@ -85,6 +85,14 @@ html{
     text-decoration: none;
     background: none;
   }
+.newNav{
+  margin: auto;
+}
+  .newNav .blocks{
+    display: inline-block;
+    margin: auto;
+    /* border: 1px solid black; */
+  }
   /*Our Top Courses Line */
   .headline{
     position: relative;
