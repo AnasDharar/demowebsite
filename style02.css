@@ -1,0 +1,199 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    background-color: #f9f9f9;
+}
+
+h1, h2, h3 {
+    color: #0056b3;
+    margin: 10px 0;
+}
+
+a {
+    color: #0056b3;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Header Section */
+.header {
+    background-color: papayawhip;
+    padding: 20px;
+    text-align: center;
+    border-bottom: 3px solid #0056b3;
+}
+
+.header h1 {
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+
+.header p {
+    font-size: 16px;
+    color: #555;
+}
+
+/* Course Details Section */
+.courcedetails {
+    padding: 20px;
+    background-color: #ffffff;
+    margin: 20px auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.courcedetails h2 {
+    margin-bottom: 15px;
+    color: #444;
+}
+
+.courcedetails p {
+    margin-bottom: 20px;
+    color: #555;
+}
+
+.learn-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 17px;
+    row-gap: 20px;
+}
+
+.learn-grid .item {
+    background-color: #f8f8f8;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    color: #333;
+}
+
+/* Instructor Section */
+.instruc {
+    padding: 20px;
+    background-color: #ffffff;
+    margin: 20px auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+#Iname {
+    font-size: 22px;
+    margin-bottom: 10px;
+    color: #444;
+}
+
+#Idetails {
+    font-size: 16px;
+    color: #666;
+}
+
+/* Course Curriculum Section */
+.course-curriculum {
+    padding: 20px;
+    background-color: #ffffff;
+    margin: 20px auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.course-curriculum h2 {
+    margin-bottom: 15px;
+    color: #444;
+}
+
+.course-curriculum .cource00, .course01, .course02 {
+    margin-bottom: 15px;
+}
+
+.course-curriculum h3 {
+    font-size: 18px;
+    color: #0056b3;
+    margin-bottom: 5px;
+}
+
+.course-curriculum p {
+    margin-bottom: 15px;
+    color: #555;
+}
+
+/* Call to Action Section */
+.action00 {
+    padding: 20px;
+    text-align: center;
+    background-color: papayawhip;
+    margin: 20px auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.action00 h2 {
+    font-size: 24px;
+    color: #444;
+    margin-bottom: 20px;
+}
+
+button {
+    background-color: #0056b3;
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 10px;
+}
+
+button:hover {
+    background-color: #003d82;
+}
+
+.action00 p {
+    font-size: 16px;
+    color: #555;
+}
+
+/* Reviews Section */
+.review00 {
+    padding: 20px;
+    background-color: #ffffff;
+    margin: 20px auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.review00 h2 {
+    margin-bottom: 15px;
+    color: #444;
+}
+
+.review00 p {
+    font-size: 16px;
+    font-style: italic;
+    color: #555;
+    margin-bottom: 10px;
+    background-color: #f8f8f8;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Footer */
+.footer00 {
+    text-align: center;
+    padding: 15px;
+    background-color: #333;
+    color: #fff;
+    font-size: 14px;
+}
+
+.footer00 p {
+    margin: 0;
+}
