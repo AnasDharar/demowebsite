@@ -130,6 +130,7 @@ html{
   .sliding{
     overflow-x: auto;
     white-space: nowrap;
+    
   }
   .course{
     display: inline-block;
