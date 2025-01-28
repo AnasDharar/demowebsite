@@ -128,7 +128,9 @@ html{
   }
   /* courses CSS */
   .sliding{
-    overflow-x: auto;
+    /* overflow-x: auto; */
+    display: flex;
+    justify-content: center;
     white-space: nowrap;
     
   }
@@ -253,15 +255,21 @@ html{
   
   /* Form */
   #form{
-    background: #FF7272;
+    display: block;
+    /* justify-content: center; */
+    height: 80%;
+    width: 60%;
+    margin: auto;
+    background: #162a33;
     text-align: center;
     padding: 5%;
+    border-radius: 80px;
   }
   .input-txt{
     outline: none;
     padding: 10px;
     margin: 5%;
-    font-size: 1rem;
+    font-size: 0.6rem;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 
     background: none;
@@ -283,10 +291,10 @@ html{
     width: 50%;
     height: 20%;
     margin: 5px;
-    border: 5px solid #ffa896;
-    background: #FFF674;
-    color: #f24e1e;
-    filter: drop-shadow(3px 3px #9b1313);
+    border: 5px solid #051d25;
+    background: #0a3748;
+    color: white;
+    filter: drop-shadow(3px 3px #051d25);
     border-radius: 10px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     transition: 0.4s;
@@ -300,6 +308,7 @@ html{
     background: #00DCFF;
   }
   .footer00 {
+    margin-top: 20px;
     text-align: center;
     padding: 15px;
     background-color: #333;
